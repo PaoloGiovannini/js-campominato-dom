@@ -24,7 +24,7 @@ main{
     margin: 10px 0px;
 }
 
-.square {
+.square {  
     width: calc(100% / 10);
     height: calc(100% / 10);
     display: flex;
@@ -48,4 +48,19 @@ background-color: aqua;
 
 .pointer{
     pointer-events: none;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.difficile{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.ultradifficile{
+    width: calc(100% / 7);
+    height: calc(100% / 10);
 }
