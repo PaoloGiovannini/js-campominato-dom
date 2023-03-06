@@ -34,6 +34,7 @@ bottoneDom.addEventListener('click', function() {
             click++
             
             this.classList.toggle('cliccato');
+            quadratino.classList.add('pointer')
             punteggioDom.innerHTML = `Il tuo punteggio è ${click}`;
             for (let x = 0; x < arrayBombe.length; x++){
                 if (quadratino.textContent == arrayBombe[x]){
