@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #7fffd4;
+    padding: 40px 0px;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border: 1px black solid;
+}
+
+.square.cliccato{
+background-color: aqua;
+}
+
+.d-none{
+    display: none;
+}
+
+.square.red{
+    background-color: red;
+}
+
+.pointer{
+    pointer-events: none;
+}
